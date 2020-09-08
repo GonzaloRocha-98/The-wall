@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+body{
+    background-color: #E9EBEE;
+}
+h1{
+    color: #F79923; font-size: 220%;font-family:fantasy
+}
+
+#caja-registro{
+    margin-top: 50px;
+
+}
+.registro {
+    border: 2px solid;
+    background-color: white;
+    width: 50%;
+    border-radius: 20px;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: auto;
+    padding: 20px;
+    font-weight: bold;
+}
+.campo{
+    width: 100%;
+    border-radius: 6px;
+    padding: 6px;
+    font: message-box;
+}
+
+
+#boton-registrar{
+    width: 100%;
+    padding: 10px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+    border-radius: 10px;
+    border: 1px solid;
+    background-color: #62A24F;
+    cursor: pointer;
+    opacity: 0.9;
+    font-size: 20px;
+}
+
+#boton-registro button:hover{
+    opacity: 1;
+}
+.alerta{
+    color: #721c24;
+    background-color: #f8d7da;
+    border-color: #f5c6cb;
+    padding: 10px;
+    border-radius: 2px;
+}
+
+footer{
+    padding-top: 70px;
+    clear: both;
+    color: white;
+    text-align: center;
+}
